@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.image-profile{
+  width: 317px;
+  height: 317px;
+  flex-shrink: 0;
+  border-radius: 10px 10px 0px 0px;
+  /* background: url(./assets/Julie_JobPic.jpg), lightgray -207.665px -133.577px / 210.625% 315.631% no-repeat; */
+}
+
+.app-all{
+display: flex;
+width: 550px;
+height: 868px;
+padding: 44px 117px 44px 116px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+background: #23252C;
+}
+
+
+.info-name{
+width: 317px;
+height: 25.806px;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.job-title{
+width: 317px;
+height: 14.194px;
+flex-shrink: 0;
+color: #F3BF99;
+text-align: center;
+font-family: Inter;
+font-size: 12.8px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.about-heading3{
+width: 242.712px;
+height: 18px;
+flex-shrink: 0;
+color: #F5F5F5;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 24px */
+margin-top: 25px;
+text-align: left;
+margin-left: 36px;
+}
+
+.interests-heading3{
+  width: 242.712px;
+  height: 18px;
+  flex-shrink: 0;
+  color: #F5F5F5;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+  margin-top: 0px;
+  text-align: left;
+  margin-left: 36px;
+  }
+
+.paragraph{
+width: 247px;
+height: 145px;
+flex-shrink: 0;
+color: #DCDCDC;
+font-family: Inter;
+font-size: 10.24px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 15.36px */
+text-align: left;
+margin-top:5px;
+margin-left:36px;
+}
+
+.digital-card-bottom{
+width: 317px;
+height: 450px;
+flex-shrink: 0;
+text-align: center;
+background: #1A1B21;
+}
+
+.digital-card-footer{
+  flex-shrink: 0;
+}
+
+.button-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button-email{
+display: flex;
+width: 115px;
+padding: 9px 13px 9px 11px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 6px;
+border: 1px solid var(--gray-300, #D1D5DB);
+background: var(--white, #FFF);
+
+/* shadow/sm */
+box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+margin-right: 20px;
+}
+
+.email-icon{
+  background: url(./assets/Mail.svg) no-repeat;
+  float: left;
+  width: 20px;
+  height: 15px;
+}
+
+.button-linkedin{
+  display: flex;
+  width: 115px;
+  padding: 9px 13px 9px 11px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  background: #5093E2;
+  color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px; /* 114.286% */
+
+/* shadow/sm */
+box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+width: 317px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 0px 0px 10px 10px;
+background: #161619;
+}
+
+.twitter-icon{
+width: 25px;
+height: 25px;
+flex-shrink: 0;
+margin-right: 24px;
+}
+
+.facebook-icon{
+width: 25px;
+height: 25px;
+flex-shrink: 0;
+margin-right: 24px;
+}
+
+.instagram-icon{
+  width: 25px;
+  height: 25px;
+  flex-shrink: 0;
+  margin-right: 24px;
+  }
+
+  .github-icon{
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+    margin-right: 24px;
+    }
+
+/* .footer-container{
+
+} */
